@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isDisabled = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Hello, World!") {
+                isDisabled.toggle()
+            }
+            .buttonStyle(FancyButtonStyle())
+            .disabled(isDisabled)
+
+            Button("Reset") {
+                isDisabled.toggle()
+            }
         }
-        .padding()
     }
 }
 

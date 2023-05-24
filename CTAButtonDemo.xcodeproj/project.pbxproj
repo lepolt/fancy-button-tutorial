@@ -11,6 +11,7 @@
 		264F540E2A16A215001BE4D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264F540D2A16A215001BE4D5 /* ContentView.swift */; };
 		264F54102A16A216001BE4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264F540F2A16A216001BE4D5 /* Assets.xcassets */; };
 		264F54132A16A216001BE4D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264F54122A16A216001BE4D5 /* Preview Assets.xcassets */; };
+		264F541B2A16A42C001BE4D5 /* FancyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264F541A2A16A42C001BE4D5 /* FancyButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		264F540D2A16A215001BE4D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		264F540F2A16A216001BE4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264F54122A16A216001BE4D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		264F541A2A16A42C001BE4D5 /* FancyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		264F540A2A16A215001BE4D5 /* CTAButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				264F54192A16A41E001BE4D5 /* Styles */,
 				264F540B2A16A215001BE4D5 /* CTAButtonDemoApp.swift */,
 				264F540D2A16A215001BE4D5 /* ContentView.swift */,
 				264F540F2A16A216001BE4D5 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				264F54122A16A216001BE4D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		264F54192A16A41E001BE4D5 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				264F541A2A16A42C001BE4D5 /* FancyButtonStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				264F540E2A16A215001BE4D5 /* ContentView.swift in Sources */,
 				264F540C2A16A215001BE4D5 /* CTAButtonDemoApp.swift in Sources */,
+				264F541B2A16A42C001BE4D5 /* FancyButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
