@@ -1,4 +1,3 @@
-r
 # Fancy Button Tutorial
 
 This repository contains a custom button component built using Xcode and SwiftUI. The button component was designed collaboratively with a graphic designer using Figma, and we recorded a side-by-side video documenting the process.
